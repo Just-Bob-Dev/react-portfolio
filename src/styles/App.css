@@ -1,0 +1,221 @@
+/*
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Arbutus Slab', serif;
+font-family: 'Lora', serif;
+
+#202B30
+#4E7178
+#4FA9B8
+#74C0CF
+#F1F7E2
+
+
+
+
+
+*/
+
+.nav-header-container {
+  height: 100vh;
+  background-image: url('./mac_up_close.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  opacity: 0.98;
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 60%;
+}
+
+
+.typewrite {
+  z-index: 1;
+  color: #E4F1FE;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 3.5em;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 400;
+}
+
+.underline {
+  font-size: 5em;
+}
+
+.name-divider {
+  color: #E4F1FE;
+}
+
+/*----------------------------------------------
+Navigation Styling.
+----------------------------------------------*/
+
+.nav-container {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #202B30;
+  padding: 0;
+  opacity: .9;
+  z-index: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+.rob-nav-name {
+  margin-left: 25px;
+  flex-basis: 75%;
+  color: white;
+  margin-top: 0;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.nav-bar {
+  z-index: 1;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: 'Droid Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.nav-item {
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Droid Sans', sans-serif;
+  text-decoration: none;
+  color: #74C0CF;
+}
+
+
+.anchor-tag {
+  text-decoration: none;
+  color: #74C0CF;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.anchor-tag:hover {
+  color: white;
+  background-color: black;
+}
+
+.nav-item:hover {
+  color: white;
+  background-color: black;
+}
+
+
+.contact-nav {
+  width: 50%;
+}
+
+.contact-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-icon {
+  flex-basis: 20%;
+  text-decoration: none;
+  list-style-type: none;
+  z-index: 1;
+}
+
+.fa-github, .fa-envelope, .fa-linkedin-square {
+  font-size: 3em;
+  color: #74C0CF;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contact-icon:hover {
+  background-color: black;
+}
+
+.fa:hover {
+  color: white;
+}
+
+/*.linkedin-container {
+  background-color: #59ABE3;
+  margin: 0;
+  padding: 0;
+  height: 8vh;
+}*/
+
+
+
+/*---------------------------------
+Resume Styling
+-----------------------------------*/
+.about-resume-container {
+  background-color: #202B30;
+  padding: 0;
+  margin: 0;
+}
+
+.about-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.about-h1 {
+  margin: 0;
+  padding-top: 3vh;
+  margin-bottom: -2vh;
+  font-size: 2.5em;
+  color: #E4F1FE;
+  font-family: 'Droid Sans', sans-serif;
+  z-index: 1;
+}
+
+.about-content {
+  margin: 5vh 0;
+  padding: 4vh;
+  font-size: 1.5em;
+  color: #E4F1FE;
+  font-family: 'Cabin', sans-serif;
+  border: 2px solid #E4F1FE;
+  z-index: -1;
+  box-decoration-break: clone;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  line-height: 1.25;
+}
+
+/*-------------------------------
+Skills Styling
+-------------------------------*/
+.skills-container {
+  margin: 0;
+  padding: 0;
+}

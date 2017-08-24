@@ -1,0 +1,86 @@
+.skills-h1 {
+  padding: 3vh 0 0 0;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Droid Sans', sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.skills {
+  background-color: #4E7178;
+  height: 50vh;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.icon-item {
+  flex-basis: 20%;
+  list-style-type: none;
+  text-decoration: none;
+  height: 125px;
+  width: 125px;
+  margin-top: 40px;
+}
+
+.html5-holder {
+  background-image: url('https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.css-holder {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.node-holder {
+  background-image: url('https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.js-holder {
+  background-image: url('http://www.pasilda.com/ux/img/javascript-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.react-holder {
+  background-image: url('https://www.shareicon.net/data/512x512/2016/07/08/117367_logo_512x512.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mongo-holder {
+  background-image: url('https://static1.squarespace.com/static/513914cde4b0f86e34bbb954/t/58d2c758725e25221a20ed53/1490208601230/mongodb-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sql-holder {
+  background-image: url('http://datascience-enthusiast.com/figures/mysql.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.postgress-holder {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Pg_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.git-holder {
+  background-image: url('https://git-for-windows.github.io/img/git_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
