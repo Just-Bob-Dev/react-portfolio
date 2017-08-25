@@ -9,7 +9,7 @@ export default class Navbar extends Component {
           <ul className="contact-bar">
             <a href="https://github.com/RagyHutch" target="_blank"><li className="contact-icon"><i className="fa fa-github" aria-hidden="true"></i></li></a>
             <a href="mailto:rjhutchins22@gmail.com" target="_blank"><li className="contact-icon"><i className="fa fa-envelope" aria-hidden="true"></i></li></a>
-            <a href="https://www.linkedin.com/in/robert-hutchins-2b8841119/" target="_blank"><li className="contact-icon"><i className="fa fa-linkedin-square" aria-hidden="true"></i></li></a>
+            <a href="https://www.linkedin.com/in/robert-james-hutchins/" target="_blank"><li className="contact-icon"><i className="fa fa-linkedin-square" aria-hidden="true"></i></li></a>
           </ul>
         </nav>
 
