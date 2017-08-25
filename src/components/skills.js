@@ -4,7 +4,7 @@ import '../styles/Icon.css';
 export default class Skills extends Component {
   render() {
     return(
-      <div className="skills">
+      <div className="skills" id="skills">
         <h1 className="skills-h1">Skills</h1>
         <ul className="icon-container">
           <li className="icon-item css-holder"></li>

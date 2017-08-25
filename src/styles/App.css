@@ -99,6 +99,10 @@ Navigation Styling.
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-item {
   padding: 20px;
   text-align: center;

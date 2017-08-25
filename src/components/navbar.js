@@ -15,9 +15,9 @@ export default class Navbar extends Component {
 
         <nav className="nav-bar">
           <ul className="nav-list">
-            <li className="nav-item">About</li>
-            <li className="nav-item">Skills</li>
-            <li className="nav-item">Work</li>
+            <a href="#about" ><li className="nav-item">About</li></a>
+            <a href="#skills" ><li className="nav-item">Skills</li></a>
+            <a href="#work" ><li className="nav-item">Work</li></a>
             <a className="anchor-tag" href="https://trello-attachments.s3.amazonaws.com/59760c12f6ffde7c8040c6bf/59840bb32883e19185244153/e17a6edadafcca95da9f7beb62f5c570/Robert_Hutchins_resume.pdf" target="_blank"><li classname="nav-item">Resume</li></a>
           </ul>
         </nav>
