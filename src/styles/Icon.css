@@ -8,7 +8,7 @@
 }
 
 .skills {
-  background-color: white;
+  background-color: #E4F1FE;
   height: 50vh;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .sql-holder {
-  background-image: url('http://datascience-enthusiast.com/figures/mysql.png');
+  background-image: url('https://azure.microsoft.com/svghandler/sql-database?width=600&height=315');
   background-repeat: no-repeat;
   background-size: contain;
 }
