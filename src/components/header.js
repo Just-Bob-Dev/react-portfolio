@@ -15,7 +15,6 @@ export default class Header extends Component {
         <h1 className="typewrite underline" id="typewriter">
             Robert James Hutchins
         </h1>
-        <hr className="name-divider" ></hr>
         <h2 className="typewrite web-dev">Full Stack Web Developer</h2>
       </div>
     )

@@ -117,7 +117,28 @@ NotFlix Styling
 Button Styling
 */
 .project-button {
-  margin: 10px;
-  height: 30px;
-  width: 60px;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.live-btn, .github-btn, button {
+  margin-top: 10px;
+  border: none;
+}
+
+button {
+  box-shadow: 5px 5px 10px black;
+  font-size: 1.5em;
+  background-color: #74C0CF;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: #4FA9B8;
+  color: white;
 }

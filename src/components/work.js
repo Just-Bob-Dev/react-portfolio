@@ -13,7 +13,7 @@ export default class Work extends Component {
             <section className="header-text nuU-text">
               <h2 className="project-title nuUh2">NuÜ</h2>
               <p className="project-text">NuÜ is a ficticous marketplace for social media enhancement services. It is built as a single page app with React for the front end and, Node as the backend. I personally handled the administration page, API, and backend build for this project. Checkout the <a href="https://github.com/RagyHutch/TIS-store" className="para-link">backend</a> code for the project.</p>
-              <span className="tools-used">React, Node, Express, Mongo, HTML5, CSS3, Express, Bootstrap</span>
+              <span className="tools-used">React, Node, Express, Mongo, HTML5, CSS3, Express, Bootstrap, Axios, mLab</span>
               <br />
               <a className="project-button live-btn" href="http://nuu.surge.sh/" target="_blank"><button className="project-button">Live Site</button></a>
               <a className="project-button github-btn" href="https://github.com/mykltronn/The-Iron-Store" target="_blank"><button className="project-button">GitHub</button></a>
