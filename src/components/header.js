@@ -16,7 +16,7 @@ export default class Header extends Component {
             Robert James Hutchins
         </h1>
         <hr className="name-divider" ></hr>
-        <h2 className="typewrite">Full Stack Web Developer</h2>
+        <h2 className="typewrite web-dev">Full Stack Web Developer</h2>
       </div>
     )
   }
