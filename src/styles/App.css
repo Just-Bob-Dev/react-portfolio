@@ -236,3 +236,17 @@ Skills Styling
   margin: 0;
   padding: 0;
 }
+
+/*-------------------------------
+Footer Styling
+-------------------------------*/
+.port-footer {
+  height: 10vh;
+  background-color: #4E7178;
+  color:  #E4F1FE;
+  font-size: 1em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}

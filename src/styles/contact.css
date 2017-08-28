@@ -1,0 +1,71 @@
+/*
+font-family: 'Droid Sans', sans-serif;
+font-family: 'Cabin', sans-serif;
+
+#202B30
+#4E7178
+#4FA9B8
+#74C0CF
+#F1F7E2
+
+#E4F1FE
+*/
+
+
+
+
+.contact-icon-header-container {
+  background-color: #E4F1FE;
+  height: 40vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contact-header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 3vh;
+  font-family: 'Droid Sans', sans-serif;
+  color: #202B30;
+  font-size: 3em;
+  text-align: center;
+}
+
+.icon-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact {
+  width: 20%;
+  margin: 3vh;
+  text-decoration: none;
+}
+
+.faa{
+    color: #202B30;
+}
+
+.connect {
+  text-align: center;
+  color: #202B30;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.contact:hover .fa {
+  color: #4E7178;
+}
+
+.contact:hover .connect {
+  color: #4E7178;
+}
